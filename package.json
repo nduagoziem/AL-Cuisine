@@ -1,0 +1,11 @@
+{
+  "name": "-y",
+  "version": "-y",
+  "description": "This is a simple cuisine web design with bootstrap",
+  "main": "index.js",
+  "author": "NDUAGOZIEM",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap-icons": "^1.11.3"
+  }
+}

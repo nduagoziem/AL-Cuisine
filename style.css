@@ -1,0 +1,44 @@
+@import url("Bootstrap/css/bootstrap.min.css");
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Nav Bar Styling */
+.navbar {
+    background-color: black;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+
+.container {
+    background-color: black;
+}
+
+.container button {
+    border: none;
+}
+
+.container button, .navbar-toggler-icon {
+    background-color: steelblue;
+}
+
+.navbar-brand {
+    font-style: italic;
+    color: steelblue;
+}
+
+.navbar-brand:visited {
+    color: steelblue;
+}
+
+.navbar-brand:hover {
+    color: steelblue;
+}
+
+.collapse {
+    justify-content: end;
+}
