@@ -1,5 +1,6 @@
 @import url("Bootstrap/css/bootstrap.min.css");
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+/* @import url("node_modules/bootstrap-icons/font/bootstrap-icons.min.css");t */
 
 * {
     box-sizing: border-box;
@@ -67,4 +68,32 @@ body {
     height: 400px;
     width: 400px;
     margin-left: 20px;
+}
+
+/* Menu-Section Styling */
+.menu-section {
+    background: linear-gradient(to top right, black, rgb(19, 52, 79), black);
+}
+
+.menu-card {
+    transition: 0.5s ease-in;
+}
+
+.menu-card:hover {
+    transform: scale(.5);
+}
+
+.menu-card-dark {
+    background-color: black;
+    color: steelblue;
+}
+
+.menu-card-steel {
+    background-color: steelblue;
+    color: black;
+}
+
+.menu-food-image {
+    height: 200px;
+    width: 200px;
 }
