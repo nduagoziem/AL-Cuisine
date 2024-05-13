@@ -1,6 +1,5 @@
 @import url("Bootstrap/css/bootstrap.min.css");
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
-/* @import url("node_modules/bootstrap-icons/font/bootstrap-icons.min.css");t */
 
 * {
     box-sizing: border-box;
@@ -80,7 +79,7 @@ body {
 }
 
 .menu-card:hover {
-    transform: scale(.5);
+    transform: scaleY(.5);
 }
 
 .menu-card-dark {
@@ -96,4 +95,14 @@ body {
 .menu-food-image {
     height: 200px;
     width: 200px;
+}
+
+/* About-Us Accordion Styling */
+.about-us-sect {
+    background-color: black;
+}
+
+.about-us-sect .container h2 {
+    color: steelblue;
+    font-style: italic
 }
