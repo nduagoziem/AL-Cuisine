@@ -106,3 +106,17 @@ body {
     color: steelblue;
     font-style: italic
 }
+
+/* Review Section Styling */
+.review-card {
+  background-color: steelblue;
+}
+
+.review-card-header {
+    border: none;
+}
+
+.review-image {
+    height: 60px;
+    width: 60px;
+}
