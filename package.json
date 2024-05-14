@@ -2,7 +2,7 @@
   "name": "-y",
   "version": "-y",
   "description": "This is a simple cuisine web design with bootstrap",
-  "main": "index.js",
+  "main": "style.js",
   "author": "NDUAGOZIEM",
   "license": "MIT",
   "dependencies": {
