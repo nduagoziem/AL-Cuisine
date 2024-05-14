@@ -1,5 +1,6 @@
 @import url("Bootstrap/css/bootstrap.min.css");
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url("node_modules/bootstrap-icons/font/bootstrap-icons.min.css");
 
 * {
     box-sizing: border-box;
@@ -64,8 +65,8 @@ body {
 
 .showcase-image {
     display: block;
-    height: 400px;
-    width: 400px;
+    height: 300px;
+    width: 300px;
     margin-left: 20px;
 }
 
@@ -119,4 +120,73 @@ body {
 .review-image {
     height: 60px;
     width: 60px;
+}
+
+/* Contact Section Styling */
+.contact-container {
+    background-color: rgb(10, 80, 138);
+}
+
+.contact-container .d-flex {
+    font-size: 18px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-container .d-flex ul li {
+    list-style-type: none;
+    padding-bottom: 16px;
+}
+
+.contact-container .d-flex a button {
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.bi-arrow-up {
+    color: rgb(14, 99, 168);
+}
+
+/* Footer Styling */
+footer {
+    color: steelblue;
+}
+
+/* Header-Showcase Media Queries */
+@media (min-width: 400px) and (max-width: 990px) {
+    .showcase-flex {
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 399px) {
+    .showcase-image {
+        display: none;
+    }
+}
+
+/* Menu Section Media Query */
+@media (min-width: 991px) and (max-width: 1199px) {
+    .menu-container .row {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/* Review Section Media Queries */
+@media (min-width: 768px) and (max-width: 990px) {
+    .review-section .container .row {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/* Contact Section Media Queries */
+@media (max-width: 468px) {
+    .contact-container .d-flex {
+        flex-direction: column;
+    }
 }
