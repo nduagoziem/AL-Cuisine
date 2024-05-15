@@ -17,3 +17,7 @@ Bootstrap - The front-end framework used for building the website.
 Bootstrap-Icons - Used for icons throughout the website.
 
 Brad Traversey - www.youtube.com/@TraversyMedia.
+
+www.w3schools.com
+
+@SirMekus
